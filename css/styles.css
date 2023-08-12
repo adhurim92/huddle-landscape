@@ -1,0 +1,120 @@
+@media only screen and (max-width: 375px) {
+
+    body {
+        background-color: rgb(56, 51, 52);
+        background-image: url("bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    main {
+
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+    .titlee{
+        width: 80%;
+    }
+    .div2 {
+        margin-left: 20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+
+
+    body {
+
+        margin: 5%;
+
+        background-repeat: no-repeat;
+        background-image: url("bg-desktop.svg");
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .div1 {
+        width: 50%;
+    }
+
+    .div2 {
+
+        max-width: 400px;
+
+
+        margin-top: 0;
+        margin-left: 5%;
+        width: 50%;
+
+    }
+
+    .teks {
+
+    }
+}
+
+.illu {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+}
+
+main {
+
+    display: flex;
+
+
+}
+
+.titlee {
+
+    max-width: 450px;
+    margin-top: 0;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.teks {
+    max-width: 450px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.buton1 {
+    width: auto;
+    padding: 20px 30px 20px 30px;
+    border: 0;
+    border-radius: 50px;
+
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+
+body {
+
+    min-width: 600px;
+    min-height: 600px;
+}
